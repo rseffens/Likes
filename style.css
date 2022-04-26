@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.dflex{
+    display: flex;
+}
+
+.padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+
+.subHeader {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.marginBottom{
+    margin-bottom: 10px;
+}
+
+.marginTop{
+    margin-top: 10px;
+}
+.master{
+    justify-content: center;
+    flex-direction: row;
+    /* gap: 200px; */
+}
+
+.column-container{
+    display: flex;
+}
+
+.border-line {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.keanue{
+    border-radius: 50%;
+
+}
+
+.leftcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar{
+    text-align: center;
+}
+
+.rightcolumn{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.topcolumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.likeStack{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.button{
+    width: 100px;
+    background: yellow;
+    padding: 5px;
+    box-shadow: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

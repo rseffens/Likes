@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <!-- Main box -->
+    <div class="padding">
+        <!-- heading -->
+        <div>
+        <h1 class="header padding">Network</h1>
+        <h1 class="subHeader padding">Your Feed</h1>
+        </div>
+        <!-- column boxes -->
+        <div class="dflex master">
+            <!-- left container -->
+            <div class="border-line leftcolumn avatar ">
+                <img class="keanue marginBottom" src="https://placekeanu.com/100" alt="Keanue">
+                <div>
+                    <a class="marginBottom" href="#">Add an avatar</a>
+                    <h2 class="marginTop">James Doe</h2>
+                </div>
+            </div>
+            <!-- right container -->
+            <div>
+                <div class="dflex rightcolumn border-line">
+                    <div>
+                        <!-- top column -->
+                        <div class="topcolumn">
+                            <h2>Neil M</h2>
+                            <div class="likeStack">
+                                <p id="count1">0 likes</p>
+                                <button onclick="add1()" class="button">Like</button>
+                            </div>
+                        </div>
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="dflex rightcolumn border-line">
+                    <div>
+                        <!-- top column -->
+                        <div class="topcolumn">
+                            <h2>Nichole K</h2>
+                            <div class="likeStack">
+                                <p id="count">0 likes</p>
+                                <button onclick="add2()" class="button">Like</button>
+                            </div>
+                        </div>
+                        <p>Just finished my <a href="#">next comic,</a>check it out</p>
+                    </div>
+                </div>
+                <div class="dflex rightcolumn border-line">
+                    <div>
+                        <!-- top column -->
+                        <div class="topcolumn">
+                            <h2>Jim R</h2>
+                            <div class="likeStack">
+                                <p id="count3">0 likes</p>
+                                <button onclick="add3()" class="button">Like</button>
+                            </div>
+                        </div>
+                        <p>I can't stop listenting to the <a href="#">new album.</a>Who else is liking it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="node.js"></script>
+</body>
+</html>
